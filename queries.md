@@ -60,6 +60,8 @@
 
 <!-- Your Code Goes Here -->
 
+> db.companies.find( { number_of_employees: { $exists:true } } ).limit(10).sort( { number_of_exployees: 1 } ).pretty()
+
 ### 11. All the companies founded on the second semester of the year. Limit your search to 1000 companies.
 
 <!-- Your Code Goes Here -->
